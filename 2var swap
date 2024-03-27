@@ -1,0 +1,7 @@
+A=int(input("enter A value"))
+B=int(input("enter B value"))
+A=A*B
+B=A/B
+print("B is",B)
+A=A/B
+print("A is",A)
