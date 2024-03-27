@@ -1,0 +1,12 @@
+num=int(input("enter the value"))
+sum=0
+temp = num
+while(temp!=0):
+    r=temp%10
+    f=1
+    for i in range(1,r+1):
+        f=f*i
+        i+=1
+    sum=sum+f
+    temp=temp//10
+print("Strong number is",sum)
