@@ -1,0 +1,5 @@
+text1='sainagar shiridi'
+i=0
+while i<len(text1):
+    print(text1[i],end=' ')
+    i+=1
