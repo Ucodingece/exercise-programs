@@ -1,0 +1,5 @@
+text = 'civil services'
+index=0
+for i in text:
+    print('index[', index, ']= ',i)
+    index +=1
