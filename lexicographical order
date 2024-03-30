@@ -1,4 +1,4 @@
-def floyds_triangle(char):
+def lexicographical_order(char):
     ch='A'
     for i in range(1,char+1):
         for j in range(1,i+1):
@@ -6,4 +6,4 @@ def floyds_triangle(char):
             ch=chr(ord(ch)+1)
         print( )
 num_char=5
-floyds_triangle(num_char)
+lexicographical_order(num_char)
