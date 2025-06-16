@@ -1,0 +1,14 @@
+class Solution:
+    def binaryTreePaths(self, root: Optional[TreeNode]) -> List[str]:
+        result = []
+        def fun(root,path):
+            if(root == None):
+                return
+            path = path+str(root.val)
+            if(root.left == None and root.right == None):
+                result.append(path)
+            path = path+"->"
+            fun(root.left,path)
+            fun(root.right,path)
+        fun(root,"")
+        return result
