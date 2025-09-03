@@ -1,0 +1,3 @@
+X, H = map(int, input().split())
+total_hours = (X - 4) * 24 + H
+print(total_hours)
