@@ -1,0 +1,9 @@
+t = int(input())
+for _ in range(t):
+    X, Y = map(int, input().split())
+    min_pos = X + 2 * Y
+    max_pos = X + 2 * (Y + 5)
+    if min_pos <= 50 <= max_pos:
+        print("Yes")
+    else:
+        print("No")
